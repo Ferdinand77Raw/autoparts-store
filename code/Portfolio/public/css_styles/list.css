@@ -1,0 +1,25 @@
+body
+	{
+	 background-image: url(images/giantstarwaves.jpg);	
+	}
+
+h2
+	{
+	 width: 960px;
+	 color: #ff0000;
+	 font-family: calibri;
+	 text-align: center;
+	 margin-left: auto;
+	 margin-right: auto;
+	 transition: 0.5s;	
+	}
+h2:hover{color: white}	
+
+table	
+	{
+	 color: #ebb734;
+	 text-align: center;
+	 margin-left: auto;
+	 margin-right: auto;
+	}
+

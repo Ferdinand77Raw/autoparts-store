@@ -1,0 +1,1248 @@
+body { 
+	  background-color: #111211; 
+      background-repeat: no-repeat;
+      background-image: url(images/carwide.jpg);
+      background-size: 100%;
+	 }	
+
+
+header{
+	    margin-right: auto;
+	    margin-left: auto;
+	    width: 960px;
+	    height: 40px;
+	    border-radius: 10px;
+	    background-color: rgba(54, 54, 54, 0.35);
+	    color:#660d07;
+	    margin-bottom: 25px;
+	 	}
+
+a
+  {
+   font-style: none;
+   text-decoration: none;
+   color: #ffffff;
+   transition: 0.3s;	
+  }
+a:hover{
+		color: #ff0000;
+}  	 	
+
+.main ul {
+			text-align: center;
+			padding: 0px;
+			margin-bottom: auto;
+		 }
+
+.main ul li
+			{
+			 display: inline-block;
+	   		 border-radius: 12px;
+	   		 margin-bottom: auto;
+			 margin-right: auto;
+			 margin-left: auto;
+			 background-color: rgba(120, 0, 5 ,0.35);
+			 width: 130px;
+			 height: 20px;
+		 	}
+
+.main ul li a
+			{
+			font-size: 12px;
+			font-family: verdana, sans-serif;
+			color: #ff0000;
+			width: 30px;
+			margin-bottom: auto;
+			text-decoration: none;
+			transition: 0.8s;
+			}
+
+.main ul li a:hover {color: white;
+					 transform: scale(1);
+					}
+
+
+h1 {
+	width: 100%;
+	height: 100px;
+	border: 15px;
+	background-color: #262522;
+	color: #ffffff; 
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5px;
+	box-shadow: 30px 0px 30px #ffffff, -30px 0px 30px #ffffff;
+	font-size: 50px;
+	font-family: verdana, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	font-style: italic;
+	transition: 0.5s;
+	transition-delay: 0.5s;
+	line-height: 50px;
+	text-shadow: 5px 5px 5px rgba(180, 255, 132, 1);
+   }
+h1:hover {color: yellow;
+          transform: scale(1);
+          box-shadow:  30px 0px 30px #ff0000, -30px 0px 30px #ff0000;
+         }   
+
+#pinterest {
+			
+			display: inline-block;
+			border-radius: 10px;
+			height: 25px;
+			width: 25px;
+			float: right;
+			
+			background-image: url(images/pinterest2.png);
+			background-size: 20px;
+			background-repeat: no-repeat;
+			transform: -moz-translate(5px, 10px);
+			transform: -webkit-translate(5px, 10px);
+		   }
+#pinterest:hover{transform: scale3d(1.3, 1.3, 1.3);}			   			 
+
+#twitter
+		{
+		    
+			display: inline-block;
+			border-radius: 10px;
+			height: 25px;
+			width: 25px;
+			float: right;
+			
+			background-image: url(images/twitter.png);
+			background-size: 20px;
+			background-repeat: no-repeat;
+			transform: -moz-translate(5px, 10px);
+		}
+#twitter:hover{transform: scale3d(1.3, 1.3, 1.3);}
+
+#youtube 
+		{
+			display: inline-block;
+			border-radius: 10px;
+			height: 25px;
+			width: 25px;
+			float: right;
+			
+			background-image: url(images/youtubeplay.png);
+			background-size: 20px;
+			background-repeat: no-repeat;
+			transform: -moz-translate(5px, 10px);
+			transform: -webkit-translate(5px, 10px);
+		}
+#youtube:hover{transform: scale3d(1.3, 1.3, 1.3);}	
+
+#instagram
+		   {
+		   	display: inline-block;
+			border-radius: 10px;
+			height: 25px;
+			width: 25px;
+			float: right;
+			
+			background-image: url(images/instagram.png);
+			background-size: 20px;
+			background-repeat: no-repeat;
+			transform: -moz-translate(5px, 10px);
+			transform: -webkit-translate(5px, 10px);
+		   }		
+
+#instagram:hover{transform: scale3d(1.3, 1.3, 1.3);}	
+
+#tumblr
+		{
+		    display: inline-block;
+			border-radius: 10px;
+			height: 20px;
+			width: 20px;
+			float: right;
+			
+			background-image: url(images/tumblr.png);
+			background-size: 18px;
+			background-repeat: no-repeat;
+			transform: -moz-translate(5px, 10px);
+			transform: -webkit-translate(5px, 10px);	
+		}
+
+#tumblr:hover{transform: scale3d(1.3, 1.3, 1.3);}
+
+h2 {
+    height: 35px;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(54, 54, 54, 0.35);
+    margin-bottom: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #ff0000;
+    font-family: verdana, sans-serif;
+    text-align: center;
+    font-style: italic;
+    transition: 0.5s;
+    transition-delay: 0.2s;
+   }   
+h2:hover{
+		 color: rgb(252, 236, 3);
+		 transition: 0.5s;
+		}  
+h4{	
+			color: #ffff;
+			text-align: center;
+			font-family: Tahoma, sans-serif;
+			font-style: italic;
+			height: 250px;
+			font-size: 30px;
+		}
+nav
+			{	
+				color: #ffff;
+				text-align: center;
+				font-family: Tahoma, sans-serif;
+				font-style: italic;
+				margin-bottom: 10px;
+				font-size: 30px;
+			}
+img{
+			border-radius: 10px;
+			width: 200px;
+			height: 200px;
+			margin-bottom: 20px;
+
+		}
+
+table{
+	  width: 500px;
+	  color: rgba(54, 54, 54, 0.35);
+}
+
+#mainsection 
+				 {
+				  width: 960px;
+				  height: 475px;
+				  background-color: rgba(54, 54, 54, 0.35);
+				  margin-left: auto;
+				  margin-right: auto;
+				  margin-bottom: 30px;
+				  margin-top: 5px;	
+				 }
+	    
+#jszone
+        {
+		  width: 920px;
+          background-color: rgba(54, 54, 54, 0.35);
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 5px;
+          font-style: italic;
+          font-size: 15px;
+          font-weight: bold;
+          font-family: 'verdana' ,sans-serif;
+          color: #ff0000;
+          transition: 0.5s;
+          padding: 20px;
+          text-align: center;
+        }
+
+#jszone:hover
+		{color: #ffffff;	}
+
+.Re-sell{
+			width: 960px;
+			background-color: rgba(54, 54, 54, 0.35);
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 20px;
+			color: #ffffff;
+			font-family: verdana, sans-serif;
+			text-align: center;
+		}
+#products	ul{
+			width: 600px;
+			margin-right: auto;
+			margin-left: auto;
+			font-family: verdana, sans-serif;
+			margin-bottom: 20px;
+			margin-top: 20px;
+		}
+
+#products	li{
+			width: 200px;
+			display: inline-block;
+			margin-right: 50px;
+			margin-bottom: 20px;
+			margin-top: 25px;
+			text-align: center;
+			transition: 0.3s;
+			color: #ffffff;
+		}
+#notice {
+			font-size: 10px;
+			text-align: center;
+			}		
+
+#zweitschlussfolgerung
+					  {
+					   width: 960px;
+					   height: 200px;
+					   background-color: rgba(54, 54, 54, 0.0);
+					   margin-left: auto;
+					   margin-right: auto;
+					   margin-top: 20px;
+					   margin-bottom: 20px;	
+					  }
+
+#sanasponsors {
+				  font-family: verdana;
+				  color: red;
+				  font-size: 14px;
+				  font-weight: bold;
+				  text-align: center;
+				  transition: 0.5s;
+				 }
+#sanasponsors:hover {color: white;
+						transition: 0.5s;}
+
+#erste
+	  {
+	   width: 320px;
+	   height: 200px;
+	   background-color: rgba(54, 54, 54, 0.0);
+	   float: left;
+	   border-top-left-radius: 10px;
+	   border-bottom-left-radius: 10px;	
+	  }
+
+#brembo
+			  {
+			  	display: inline-block;
+				margin-left: 5px;
+				height: 50px;
+				width: 50px;
+				margin-top: 5px;
+				float: left;
+				background-color: rgba(180, 80, 80,0.5);
+				background-image: url(images/brembofrenos.jpg);
+				background-size: 50px;
+				background-repeat: no-repeat;
+			  }
+#ecufast
+		 {
+		  display: inline-block;		  
+		  height: 50px;
+		  width: 50px;
+		  float: left;
+		  margin-top: 5px;
+		  margin-left: 10px;
+		  background-color: rgba(180, 80 , 80, 0.35);
+		  background-image: url(images/ecufast.jpg);
+		  background-size: 50px;
+		  background-repeat: no-repeat;	
+		 }
+
+#actc
+			{
+			 display: inline-block;
+			 height: 50px;
+		 	 width: 50px;
+		  	 float: left;
+		  	 margin-left: 10px;
+		 	 margin-top: 5px;
+		 	 margin-left: 10px;
+		  	 background-color: rgba(180, 80 , 80, 0.35);
+		  	 background-image: url(images/actc.jpg);
+		  	 background-size: 50px;
+		  	 background-repeat: no-repeat;		
+			}
+
+#goodyear 
+		{
+		     display: inline-block;
+			 height: 50px;
+		 	 width: 50px;
+		  	 float: left;
+		 	 margin-top: 5px;
+		 	 margin-left: 10px;
+		  	 background-color: rgba(180, 80 , 80, 0.35);
+		  	 background-image: url(images/goodyear.jpg);
+		  	 background-size: 50px;
+		  	 background-repeat: no-repeat;		
+		}
+
+#jsp
+	{
+	 display: inline-block;
+	 height: 50px;
+	 width: 50px;
+	 float: left;
+	 margin-top: 5px;
+	 margin-left: 10px;
+	 background-color: rgba(180, 80 , 80, 0.35);
+     background-image: url(images/jsp.jpg);
+	 background-size: 50px;
+	 background-repeat: no-repeat;			
+	}
+
+#turbonetics
+	{
+	 display: inline-block;
+			 height: 50px;
+		 	 width: 50px;
+		  	 float: left;
+		 	 margin-top: 5px;
+		 	 margin-left: 100px;
+		  	 background-color: rgba(180, 80 , 80, 0.35);
+		  	 background-image: url(images/turbonetics.jpg);
+		  	 background-size: 50px;
+		  	 background-repeat: no-repeat;			
+	}
+
+#ptrbr
+	{
+	display: inline-block;
+    height: 50px;
+	width: 50px;
+	float: right;
+	margin-top: 5px;
+	margin-right: 115px;
+    background-color: rgba(180, 80 , 80, 0.35);
+    background-image: url(images/ptrbr.jpg);
+	background-size: 50px;
+	background-repeat: no-repeat;
+	}
+
+#hamiltonoil
+		{
+		display: inline-block;
+		height: 25px;
+		width: 25px;
+		float: left;
+		margin-top: 10px;
+		margin-left: 60px;
+		background-color: rgba(120, 0, 5,0.35);
+		background-image: url(images/hamiltonoil.jpg);
+		background-size: 25px;
+		background-repeat: no-repeat;
+		}
+#indycarseries
+     {  
+     	display: inline-block;
+		height: 25px;
+		width: 25px;
+		margin-top: 10px;
+		margin-left: 20px;
+		float: left;
+		background-color: rgba(120, 0, 5,0.35);
+		background-image: url(images/indycarseries.jpg);
+		background-size: 25px;
+		background-repeat: no-repeat;
+			
+     }
+
+#ttwoser
+	 {
+	    display: inline-block;
+		height: 25px;
+		width: 25px;
+		margin-top: 10px;
+		margin-left: 30px;
+		float: left;
+		background-color: rgba(120, 0, 5,0.35);
+		background-image: url(images/ttwoser.jpg);
+		background-size: 25px;
+		background-repeat: no-repeat;
+	 }
+
+#juntascicarelli
+	   {
+	   	display: inline-block;
+		height: 25px;
+		width: 25px;
+		margin-top: 10px;
+		margin-left: 20px;
+		float: left;
+		background-color: rgba(120, 0, 5,0.35);
+		background-image: url(images/juntascicarelli.jpg);
+		background-size: 25px;
+		background-repeat: no-repeat;
+	   }
+
+#zweite
+		{
+		 display: inline-block;	 
+		 width: 320px;
+		 height: 200px;
+		 background-color: rgba(54, 54, 54, 0.0);
+		 text-align: center;
+		 float: left; 	
+		}
+
+#eusponsors
+				  {
+				   font-family: verdana;
+				   font-size: 14px;
+				   color: #ff0000;
+				   font-weight: bold;
+				   transition: 0.5s;
+				}
+#eusponsors:hover {color: white;
+						 transition: 0.5s;}				
+
+#castrol
+		{
+		display: inline-block;
+		height: 50px;
+		width: 50px;
+		margin-top: 10px;
+		margin-left: 30px;
+		float: left;
+		background-color: rgba(120, 0, 5,0.35);
+		background-image: url(images/castrollogo.jpg);
+		background-size: 50px;
+		background-repeat: no-repeat;	
+		}
+#dunlop
+		{
+		display: inline-block;
+		height: 50px;
+		width: 50px;
+		margin-top: 10px;
+		margin-left: 20px;
+		float: left;
+		background-color: rgba(120, 0, 5,0.35);
+		background-image: url(images/dunloplogo.jpg);
+		background-size: 50px;
+		background-repeat: no-repeat;	
+		}
+#bosch
+		{
+		display: inline-block;
+		height: 50px;
+		width: 50px;
+		margin-top: 10px;
+		margin-left: 20px;
+		float: left;
+		background-color: rgba(120, 0, 5,0.35);
+		background-image: url(images/boschlogo.jpg);
+		background-size: 50px;
+		background-repeat: no-repeat;	
+		}
+
+#wtcr
+		  {
+		display: inline-block;
+		height: 50px;
+		width: 50px;
+		margin-top: 10px;
+		margin-left: 20px;
+		float: left;
+		background-color: rgba(120, 0, 5,0.35);
+		background-image: url(images/wtcr-logo.jpg);
+		background-size: 50px;
+		background-repeat: no-repeat;	
+		}
+
+#coopertires
+			 {
+		display: inline-block;
+		height: 50px;
+		width: 50px;
+		margin-top: 10px;
+		margin-left: 100px;
+		float: left;
+		background-color: rgba(120, 0, 5,0.35);
+		background-image: url(images/coopertires.jpg);
+		background-size: 50px;
+		background-repeat: no-repeat;	
+		}
+#magnetimarelli
+       {
+		display: inline-block;
+		height: 50px;
+		width: 50px;
+		margin-top: 10px;
+		margin-right: 115px;
+		float: right;
+		background-color: rgba(120, 0, 5,0.35);
+		background-image: url(images/magnetimarelli.jpg);
+		background-size: 50px;
+		background-repeat: no-repeat;	
+		}
+
+		
+#dreite
+		{
+		 display: inline-block;	
+		 width:320px;
+		 height: 200px;
+		 float: right;
+		 background-color: rgba(54, 54, 54, 0.0);
+		}
+
+#asiasponsors
+			{
+			 font-weight: bold;
+			 font-size: 14px;
+			 font-family: verdana;
+			 color: #ff0000;
+			 text-align: center;
+			 transition: 0.5s;
+			}
+#asiasponsors:hover {color: white;
+					transition: 0.5s;}
+
+#toyotires
+	{
+	display: inline-block;
+    height: 50px;
+	width: 50px;
+	margin-top: 5px;
+	margin-left: 60px;
+    background-color: rgba(180, 80 , 80, 0.35);
+    background-image: url(images/toyotires.jpg);
+	background-size: 50px;
+	background-repeat: no-repeat;
+	}
+#falkentires
+	{
+	display: inline-block;
+    height: 50px;
+	width: 50px;
+	float: right;
+	margin-top:65px;
+	float: left;
+	margin-left: 20px;
+    background-color: rgba(180, 80 , 80, 0.35);
+    background-image: url(images/falken.jpg);
+	background-size: 50px;
+	background-repeat: no-repeat;
+	}
+
+#bridgestone					
+    {
+    display: inline-block;
+    height: 50px;
+	width: 50px;
+	float: right;
+	margin-top: 65px;
+	float: right;
+	margin-right: 20px;
+    background-color: rgba(180, 80 , 80, 0.35);
+    background-image: url(images/bridgestonelogo.jpg);
+	background-size: 50px;
+	background-repeat: no-repeat;
+    }
+
+#yokohama
+	{
+	display: inline-block;
+    height: 50px;
+	width: 50px;
+	float: right;
+	margin-top: 60px;
+	margin-right: 70px;
+    background-color: rgba(180, 80 , 80, 0.35);
+    background-image: url(images/yokohama.jpg);
+	background-size: 50px;
+	background-repeat: no-repeat;
+	}
+
+footer 
+	  {
+	  	color:#540129;
+		margin-left: auto;
+		margin-right: auto;
+		width: 960px;
+		margin-top: 50px;
+		background-image: url(images/outerspace.jpg);
+	  }
+
+
+ 
+#nivelF ul 	{ text-align: center;
+		 	  line-height: 75px;
+		    }
+#nivelF ul li
+			{
+			 display: inline-grid;	
+			 width: 150px;
+			 height: 30px;
+/*			 background-color: rgba(155, 0, 10, 0.35);*/
+			 border-radius: 15px;
+			 margin-left: auto;
+			 margin-right: auto;
+			 font-family: verdana, sans-serif;
+			 color: #ff0000;
+			 font-size: 12px;	
+			}
+
+#nivelF ul li a 
+				{	
+					display: inline-block;
+					text-align: center;
+					margin-right: auto;
+					margin-left: auto;
+					font-size: none;
+					text-decoration: none;
+					color: #ff0000;
+					transition: 0.5s;
+				}
+
+#nivelF ul li a:hover {color: white;
+					   transition: 0.5s;
+					   transform: scale(1);
+					   }				
+
+
+p{
+  text-align: center;
+  font-family: verdana;
+  color: #ffffff;	
+}
+
+/*aca comienza el responsive design*/
+
+@media all and (min-width: 600px) and (max-width: 1023px)
+{
+ 
+ body
+ 	 {
+ 	  background-image: url(images/carwide.jpg);
+
+ 	 }
+
+ h1
+ 	{
+ 	  width: 100%;
+ 	}
+
+
+h2
+	{
+	 width: 100%;	
+	}
+
+ header
+ 		{	
+ 		 width: 100%;
+ 		 min-width: 100%;
+ 		 margin-bottom: 10px;
+ 		}
+ 
+#mainsection
+ 			  {
+ 			   width: 100%;
+ 			   height: 100%;
+ 			  }
+
+#jszone
+        { 
+          width: 86%;
+          height: 400px;
+          background-color: rgba(54, 54, 54, 0.35);
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 100%;
+          text-align: center;
+         }        
+.Re-sell{
+			width: 90%;
+			background-color: rgba(54, 54, 54, 0.35);
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 20px;
+			color: #ffffff;
+			font-family: verdana, sans-serif;
+			text-align: center;
+		}
+#products	ul{
+			width: 600px;
+			margin-right: auto;
+			margin-left: auto;
+			font-family: verdana, sans-serif;
+			margin-bottom: 20px;
+			margin-top: 20px;
+		}
+
+#products	li{
+			width: 200px;
+			display: inline-block;
+			margin-right: 50px;
+			margin-bottom: 20px;
+			margin-top: 25px;
+			text-align: center;
+			transition: 0.3s;
+			color: #ffffff;
+		}
+#notice {
+			font-size: 10px;
+			text-align: center;
+			}		
+#zweitschlussfolgerung
+					  {
+					   width: 90%;
+					   height: 100%;
+					  }
+#erste
+	  {
+	   width: 34%;
+	   height: 100%;
+	   background-color: rgba(54, 54, 54, 0.0);
+	   float: left;
+	   
+	  }
+#brembo
+			  { 
+			  	margin-right: auto;
+			  	margin-left: auto;
+			  	margin-right: 30px;
+			  }
+#ecufast
+		 {
+		  
+		  margin-right: auto;
+		  margin-left: auto;
+		  margin-right: 28px;
+		 }
+
+#actc
+			{
+			 margin-right: auto;
+			 margin-left: auto;
+			 margin-right: 25px;
+			}
+
+#goodyear 
+		{
+		 margin-right: auto;
+		 margin-left: auto;
+		 margin-right: 10px;		
+		}
+
+#jsp
+	{
+	 margin-right: auto;
+	 margin-left: auto;
+	 margin-right: 20px;
+	 margin-left: 50px;		
+	}
+
+#turbonetics
+	{
+	 margin-right: auto;
+	 margin-left: auto;
+	 		
+	}
+
+#ptrbr
+	{
+	 margin-right: auto;
+	 margin-left: auto;
+	 margin-right: 55px;
+	}
+
+#hamiltonoil
+		{
+		 float: left;
+		 margin-right: 40px;
+		}
+#indycarseries
+     {  
+     	margin-right: auto;
+		margin-left: auto;
+		margin-right: 40px;	
+     }
+
+#ttwoser
+	 {
+	  margin-left: auto;
+	  margin-right: auto;
+	  margin-right: 40px;  
+	 }
+
+#juntascicarelli
+	   {
+	   	margin-left: auto;
+	   	margin-right: auto; 
+	   }
+	  
+#zweite
+		{
+		 width: 32%;
+		 height: 100%;		
+	     float: none;
+		 box-sizing: border-box;	
+		}
+
+#castrol
+		{
+		 margin-left: auto;
+		 margin-right: auto;
+		 margin-left: 20px;
+		 margin-right: 20px;		
+		}
+#dunlop
+		{
+		 margin-left: auto;
+		 margin-right: auto;
+		 margin-right: 10px;	
+		}
+#bosch
+		{
+		 margin-left: auto;
+		 margin-right: auto;
+		 margin-right: 10px;	
+		}
+
+#wtcr
+		{
+		 margin-left: auto;
+		 margin-right: auto;
+		 margin-right: 10px;	
+		}
+
+#coopertires
+			 {
+			  margin-left: auto;
+		 	  margin-right: auto;
+		 	  margin-left: 50px;
+			 }
+#magnetimarelli
+       		   {
+       		    margin-left: auto;
+		 		margin-right: auto;
+		 		margin-right: 30px;	
+		 	   }		
+
+#dreite
+		{
+		 width: 34%;
+		 height: 100%;	
+		 float: right;
+		 box-sizing: border-box;	
+		}
+
+#toyotires
+	{
+	 
+	 margin-top: 80px;
+	 margin-right: auto;
+	 margin-left: auto;	
+	 margin-left: 30px; 
+	}
+#falkentires
+	{
+	 
+	 margin-top: 80px;
+	 margin-right: auto;
+	 margin-left: auto;
+	}
+
+#bridgestone					
+    {
+   	 
+   	 margin-top: 80px;
+   	 margin-right: auto;
+   	 margin-left: auto;
+    }
+
+#yokohama
+	{
+	 
+	 margin-top: 80px;
+	 margin-right: auto;
+	 margin-left: auto; 
+	 margin-right: 30px;
+	}
+
+
+
+
+footer
+	  {
+	   width: 100%;
+	   height: auto;	
+	   margin-top: 100%;
+	  }
+
+#nivelF
+		{
+		 width: 100%;
+		 height: 100%;	
+		}	
+		
+
+}
+
+@media all and (max-width: 599px)
+{
+ body
+ 	 {
+ 	  background-image: url(images/carwide.jpg);
+ 	  background-size: 98%;	
+ 	 }
+ h1
+ 	{
+ 	  width: 100%;
+ 	  text-shadow: 0.5px 0.5px 0.5px rgba(180, 255, 132, 1);
+	  box-shadow: 1px 0px 1px #ffffff, -1px 0px 1px #ffffff;
+ 	  text-align: left;
+ 	  font-size: 100%;
+ 	}
+
+
+h2
+	{
+	 width: 100%;
+	 height: 50%;	
+	}
+
+ header
+ 		{	
+ 		 width: 100%;
+ 		 height: 100%;
+ 		 margin-bottom: 80px;
+ 		}
+
+#main
+     {
+      height: auto;	
+      margin-bottom: 50px;	
+     }
+ 			 	
+#mainsection
+ 			  {
+ 			   width: 100%;
+ 			   height: 100%;
+ 			   margin-top: 50px;
+ 			  }
+
+#jszone
+        {
+
+          width: 100%;
+          height: 450px;
+          background-color: rgba(54, 54, 54, 0.35);
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 5%;
+          font-style: italic;
+          text-align: center;
+          line-height: 20px;
+          padding: 20px;
+          box-sizing: border-box;
+        }
+
+.Re-sell{
+			width: 100%;
+			background-color: rgba(54, 54, 54, 0.35);
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 20px;
+			color: #ffffff;
+			font-family: verdana, sans-serif;
+			text-align: center;
+		}
+#products	ul{
+			width: 100%;
+			margin-right: auto;
+			margin-left: auto;
+			font-family: verdana, sans-serif;
+			margin-bottom: 20px;
+			margin-top: 20px;
+		}
+
+#products	li{
+			width: 100%;
+			display: inline-grid;
+			
+			margin-right: 50px;
+			margin-bottom: 20px;
+			margin-top: 25px;
+			text-align: left;
+			font-size: 12px;
+			transition: 0.3s;
+			color: #ffffff;
+		}
+#notice {
+			font-size: 8px;
+			text-align: left;
+			}		
+#zweitschlussfolgerung
+		{	
+		 width: 100%;
+		 height: 100%;
+		}
+#erste
+	   {
+	    width: 100%;
+	    float: left;	
+	   }
+#brembo
+			  {
+			  	margin-left: 5px;
+			  	margin-right: auto;
+			  	margin-left: auto;
+			  	margin-right: 10px;
+			  }
+#ecufast
+		 {
+		  margin-right: auto;
+		  margin-left: auto;
+		  margin-right: 10px;
+		 }
+
+#actc
+			{
+			 margin-right: auto;
+			 margin-left: auto;
+			 margin-right: 10px;
+			}
+
+#goodyear 
+		{
+		 margin-right: auto;
+		 margin-left: auto;
+		 margin-right: 10px;		
+		}
+
+#jsp
+	{
+	 margin-right: auto;
+	 margin-left: auto;
+	 margin-right: 10px;		
+	}
+
+#turbonetics
+	{
+	 margin-right: auto;
+	 margin-left: auto;
+	 		
+	}
+
+#ptrbr
+	{
+	 margin-right: auto;
+	 margin-left: auto;
+	 margin-right: 5px;
+	}
+
+#hamiltonoil
+		{
+		 float: left;
+		 margin-right: 40px;
+		}
+#indycarseries
+     {  
+     	margin-right: auto;
+		margin-left: auto;
+		margin-right: 40px;	
+     }
+
+#ttwoser
+	 {
+	  margin-left: auto;
+	  margin-right: auto;
+	  margin-right: 40px;  
+	 }
+
+#juntascicarelli
+	   {
+	   	margin-left: auto;
+	   	margin-right: auto; 
+	   }
+#zweite
+		{
+		 width: 100%;
+		 float: left;		 	
+		}
+
+#castrol
+		{
+		 margin-left: auto;
+		 margin-right: auto;
+		 margin-left: 20px;
+		 margin-right: 20px;		
+		}
+#dunlop
+		{
+		 margin-left: auto;
+		 margin-right: auto;
+		 margin-right: 10px;	
+		}
+#bosch
+		{
+		 margin-left: auto;
+		 margin-right: auto;
+		 margin-right: 10px;	
+		}
+
+#wtcr
+		{
+		 margin-left: auto;
+		 margin-right: auto;
+		 margin-right: 10px;	
+		}
+
+#coopertires
+			 {
+			  margin-left: auto;
+		 	  margin-right: auto;
+			 }
+#magnetimarelli
+       		   {
+       		    margin-left: auto;
+		 		margin-right: auto;
+		 		margin-right: 30px;	
+		 	   }		
+#dreite
+		{
+		 width: 100%;
+		 float: left;	
+		}
+#toyotires
+	{
+	 display: inline-block;
+	 margin-top: 80px;
+	 margin-right: 10px;	 
+	}
+#falkentires
+	{
+	 display: inline-block;
+	 margin-top: 80px;
+	}
+
+#bridgestone					
+    {
+   	 display: inline-block;
+   	 margin-top: 80px;
+   	 margin-right: 30px;
+    }
+
+#yokohama
+	{
+	 display: inline-block;
+	 margin-top: 80px; 
+	}
+footer
+	  {
+	   margin-top: 100%;	
+	   width: 100%;
+	   height: 100%;
+	   background-color: rgba(54, 54, 54, 0.0);	
+	  }
+
+#nivelF
+	   {
+	    width: 100%;
+	    height: auto;
+	    margin-top: 100px;	
+	   }
+#nivelF li
+		  {
+		   display: inline;
+		  }	   

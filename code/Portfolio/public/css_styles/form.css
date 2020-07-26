@@ -1,0 +1,84 @@
+body
+	{
+	 background-image: url(images/spacehat.jpg);
+	 background-size: all;	
+	}
+
+form
+	 {
+	  width: 480px;
+	  height: 600px;
+	  margin-left: auto;
+	  margin-right: auto;
+	  border-radius: 10px;
+	  margin-top: 30px;
+	  padding: 6em;
+	  box-sizing: border-box;
+	  background-color: rgba(255, 100, 50, 0.35);
+	 }
+
+ul
+	{
+	 margin-left: auto;
+	 margin-right: auto;
+	 list-style: none;
+	}
+
+form ul li
+	{
+	 margin-left: auto;
+	 margin-right: auto;
+	 text-decoration: none;
+	 margin-top: 15px;	
+
+	}
+
+form ul li label
+	 {
+	  display: inline-block;	
+	  margin-left: auto;
+	  margin-right: auto;
+	  width: 100px;
+	  text-decoration: none;
+	  border-radius: 10px;	
+	 }
+
+ input
+	{
+	 background-color: rgba(255, 75, 75, 0.55);
+	 width: 200px;
+	 border-radius: 10px;
+	 font-family: 'Rubik', sans-serif;
+
+	}
+
+textarea
+		{
+		 width: 200px;
+		 border-radius: 10px;
+		 font-family: 'Arimo', sans-serif;	
+		}
+
+button
+	  {
+	   border-radius: 10px;
+	   margin-left: 75px;
+	   margin-top: 5px;
+	  }
+
+@media all and(min-width: 600px ) and (max-width: 1023px)
+{
+ form
+ 	 {
+ 	  width: 100%;
+ 	  height: auto;	
+ 	 }	
+}
+
+@media all and (max-width: 599px)
+{
+ form
+ 	 {
+ 	  width: 100%;	
+ 	 }	
+}	  				 	
